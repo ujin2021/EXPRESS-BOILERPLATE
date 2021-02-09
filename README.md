@@ -42,7 +42,7 @@ exports.signupAPI = async(req, res) => {
 
 #### middelware 사용법
 
-* middelware 파일 작성후, 적용할 router 안에 선언(require)
+* middelware 파일 작성후, 적용할 router 으로 가져오기
 * router.post([path], [middleware], [controller])
 * jwt middleware 사용시, res.user_id에 해당 user_id변수를 넣어 두었기 때문에 controller에서 res.user_id로 user_id를 가져올 수 있음
 * router/normal.js 참고

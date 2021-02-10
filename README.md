@@ -16,7 +16,7 @@
 4. .gitignore 파일에서 ### Custom ### 아래 config 부분 주석 해제
 
 #### DB 사용법
-##### 일반
+##### 일반적인 
 ``` js
 await res.pool.query(`query문`, [?에 들어갈 변수명])
 ```
